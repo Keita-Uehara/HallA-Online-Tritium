@@ -38,7 +38,7 @@
 //This allows changing the directory in fewer places for ease of portability.
 const char* REPLAY_DIR_PREFIX = "./%s";
 //const char* ROOTFILE_DIR_PREFIX = "/volatile/halla/triton/eep_Rootfiles/%s";
-const char* ROOTFILE_DIR_PREFIX = "./t2root/%s";
+const char* ROOTFILE_DIR_PREFIX = "rootfiles/";
 //const char* ROOTFILE_DIR_PREFIX = "./%s";
 
 
@@ -56,7 +56,7 @@ typedef struct _sReplaySetUp
 //////////////////////////////////////////////////////////////////
 
 static const char* PATHS[] = {
-  "/adaq1/data1",
+  /* "/adaq1/data1", */
   "/cache/halla/triton/raw",
   "/w/cache/halla/triton/raw",
   //"/w/mss/halla/triton/raw",
