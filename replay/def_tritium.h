@@ -56,7 +56,11 @@ typedef struct _sReplaySetUp
 //////////////////////////////////////////////////////////////////
 
 static const char* PATHS[] = {
+<<<<<<< HEAD
   //  "/adaq1/data1",
+=======
+  /* "/adaq1/data1", */
+>>>>>>> ba6ffc6ac5652db25db46d5be91ba4fc292922e6
   "/cache/halla/triton/raw",
   "/w/cache/halla/triton/raw",
   //"/w/mss/halla/triton/raw",
