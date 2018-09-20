@@ -75,6 +75,8 @@ Int_t TriFadcCherenkov::ReadDatabase( const TDatime& date )
   };
   err = LoadDB( file, date, config_request, fPrefix );
 
+
+
   // Sanity checks
   if( !err && nelem <= 0 ) {
     Error( Here(here), "Invalid number of PMTs: %d. Must be > 0. "

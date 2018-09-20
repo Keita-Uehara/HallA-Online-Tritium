@@ -1,5 +1,5 @@
-#export LD_LIBRARY_PATH=/adaqfs/home/a-onl/tritium/analyzer:/adaqfs/home/a-onl/evio-4.3/Linux-x86_64/lib/:$ROOTSYS/lib
-#export PATH=/adaqfs/home/a-onl/tritium/analyzer/:$PATH
-export DB_DIR=/adaqfs/home/a-onl/tritium/HallA-Online-Tritium/replay/DB/
+setenv LD_LIBRARY_PATH /u/home/uehara/Hall-A-analyzer/analyzer-1.6.3
+setenv PATH /u/home/uehara/Hall-A-analyzer/analyzer-1.6.3
+setenv DB_DIR /u/home/uehara/HallA-Online-Tritium/replay
 
-#export ANALYZER=/adaqfs/home/a-onl/tritium/analyzer/
+setenv ANALYZER /u/home/uehara/Hall-A-analyzer/analyzer-1.6.3
